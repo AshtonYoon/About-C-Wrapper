@@ -19,7 +19,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, CLLo
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "https://forums.xamarin.com/discussion/149886/making-text-clickable-in-uilabel")
+        let url = URL(string: "https://mobile.aboutcafe.co.kr/#/auth/login")
         let request = URLRequest(url: url!)
         webView.load(request)
         
